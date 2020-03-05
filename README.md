@@ -2,7 +2,6 @@
 
 文件说明：
 
-- README.md - 聚类过程思路及结果分析
 - model_selection.ipynb - 模型筛选代码 & 结果
 - cluster.ipynb - 聚类代码 & 结果
 - breast.csv - 数据集
