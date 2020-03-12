@@ -14,7 +14,7 @@
 
 ## 模型筛选
 
- ***model_selection.ipynb*** | ***model_selection.html***
+ ***model_selection.ipynb***
 
 - **试验了如下模型**
   * k - means
@@ -40,7 +40,7 @@
   
 ## 聚类过程
 
-***cluster.ipynb | cluster.html***
+***cluster.ipynb***
 
 - **对先验的反思**
 
@@ -78,14 +78,14 @@
 
 ## 实验结果总结 - 创新点
 
-***cluster.ipynb | cluster.html***
+***cluster.ipynb***
 
 本文在 breast - cancer 数据集上，通过聚类数寻优后发现最佳聚类数为 3 类，于是采用两种模式对比实验：
 
 1. **直接聚成两类**
 2. **先聚成三类，再将后两类合并**
 
-通过 ***model_selection.ipynb*** | ***model_selection.html*** 筛选出四个性能较好的模型（见上文），分别对两种模式进行实验，将所有的聚类结果进行对比分析：
+通过 ***model_selection.ipynb*** 筛选出四个性能较好的模型（见上文），分别对两种模式进行实验，将所有的聚类结果进行对比分析：
 
 |             | Aver-2 | Aver-3 | Kmeans-2 | Kmeans-3 | Spectral-2 | Spectral-3 | Ward-2 | Ward-3 |
 | :---------: | :----: | :----: | :------: | :------: | :--------: | :--------: | :----: | :----: |
@@ -100,7 +100,7 @@
 - Spectral 谱聚类直接聚为两类就有很好的性能，对比第二种模式性能反而降低。
 - ward 层次聚类则比较稳健，在两种模式下性能表现一致。
 
-**其它尝试：*cluster.ipynb | cluster.html***
+**其它尝试：*cluster.ipynb***
 
 - 模型调参对聚类效果提升不太显著。
 - 多个模型 voting 对聚类效果提升不太显著。
